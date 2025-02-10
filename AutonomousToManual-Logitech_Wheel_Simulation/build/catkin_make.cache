@@ -1,0 +1,2 @@
+f1tenth_simulator
+-DCATKIN_DEVEL_PREFIX=/home/lab/AutonomousToManual-Logitech_Wheel_Simulation/devel -DCMAKE_INSTALL_PREFIX=/home/lab/AutonomousToManual-Logitech_Wheel_Simulation/install -G Unix Makefiles

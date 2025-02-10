@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+<!-- Listen to messages from logitech driving wheels -->
+  <node pkg="joy" name="driving_wheel_node" type="joy_node"/>
+
+<!-- Launch the behavior controller node with the parameters from params.yaml -->
+<!-- <node pkg="f1tenth_simulator" name="behavior_controller" type="behavior_controller" output="screen">
+    <rosparam command="load" file="$(find f1tenth_simulator)/params_wheel.yaml"/>
+  </node>
+-->
+</launch>
