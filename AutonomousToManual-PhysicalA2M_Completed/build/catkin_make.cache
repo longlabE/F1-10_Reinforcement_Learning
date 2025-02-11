@@ -1,2 +1,0 @@
-ackermann_msgs:f1tenth_simulator:hokuyo_node:joystick_drivers/joy:joystick_drivers/joystick_drivers:racecar/ackermann_cmd_mux:racecar/racecar:serial:vesc/vesc:vesc/vesc_ackermann:vesc/vesc_driver:vesc/vesc_msgs:wall_following:waypoint_logger
--DCATKIN_DEVEL_PREFIX=/home/lab/AutonomousToManual-PhysicalA2M_Completed/devel -DCMAKE_INSTALL_PREFIX=/home/lab/AutonomousToManual-PhysicalA2M_Completed/install -G Unix Makefiles
