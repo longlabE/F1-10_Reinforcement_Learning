@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find racecar)/launch/teleop.launch"/>
+
+ <node pkg="wall_following" name="lol_node" type="pid_error.py" output="screen"/> 
+  <node pkg="wall_following" name="control_node" type="control.py" output="screen"/> 
+
+
+
+  <node pkg="wall_following" name="dead_mans_switch" type="dead_mans_switch.py" output="screen"/>
+
+
+<rosparam command="load" file="$(find wall_following)/params.yaml"/>
+
+
+<!--<node pkg="wall_following" name="WallFollow_node" type="wall_follow_galib.py" output="screen"/> -->
+ <node pkg="wall_following" name="Test" type="Test.py" output="screen"/> 
+
+    
+
+
+
+</launch>

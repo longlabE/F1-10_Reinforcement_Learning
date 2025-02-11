@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lab/particle_filter/install/setup.sh

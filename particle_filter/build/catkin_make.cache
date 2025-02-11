@@ -1,0 +1,2 @@
+particle_filter
+-DCATKIN_DEVEL_PREFIX=/home/lab/particle_filter/devel -DCMAKE_INSTALL_PREFIX=/home/lab/particle_filter/install -G Unix Makefiles

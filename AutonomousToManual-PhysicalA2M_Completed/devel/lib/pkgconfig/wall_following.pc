@@ -1,0 +1,8 @@
+prefix=/home/lab/AutonomousToManual-PhysicalA2M_Completed/devel
+
+Name: wall_following
+Description: Description of wall_following
+Version: 0.0.0
+Cflags: -I/home/lab/AutonomousToManual-PhysicalA2M_Completed/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

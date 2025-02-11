@@ -1,0 +1,8 @@
+prefix=/home/lab/AutonomousToManual-PhysicalA2M_Completed/devel
+
+Name: waypoint_logger
+Description: Description of waypoint_logger
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/lab/AutonomousToManual-PhysicalA2M_Completed/devel
+
+Name: f1tenth_simulator
+Description: Description of f1tenth_simulator
+Version: 0.0.1
+Cflags: -I/home/lab/AutonomousToManual-PhysicalA2M_Completed/devel/include -I/home/lab/AutonomousToManual-PhysicalA2M_Completed/src/f1tenth_simulator/include
+Libs: -L${prefix}/lib -lf1tenth_simulator
+Requires: message_runtime
